@@ -1,0 +1,40 @@
+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
+
+
+
+
+ 1  yum update -y
+    2  clear
+    3  yum install git -y
+    4  git --version
+    5  clear
+    6  mkdir iccp-local-repo
+    7  git status
+    8  cd iccp-local-repo/
+    9  git init
+   10  git status
+   11  clear
+   12  touch pankaj
+   13  vim pankaj
+   14  cat pankaj
+   15  vim pankaj
+   16  cat pankaj
+   17  ls
+   18  git status
+   19  touch ravi
+   20  vim ravi
+   21  git status
+   22  git add ravi
+   23  git status
+   24  git add .
+   25  git status
+   26  
+   28  clear
+   29  git config --global user.name "gautam"
+   30  git config --global user.email "gautam@gmail.com"
+   31  git config --list
+   32  git commit -m "this is pankaj and ravi intro"
+   33  git status
+   34  git log
+   35  git show 2b8d5a36
+   36  history
